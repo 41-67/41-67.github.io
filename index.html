@@ -2,7 +2,7 @@
 
 <html>
     <head>
-		 <h3>Where Games Are Fun</h3>
+		<a id="test" style="color: white; text-decoration: none"><h3>Where Games Are Fun</h3></a>
         <meta charset="utf-8">
 
         <title>41-67</title>
@@ -84,12 +84,20 @@
 	    	
         <!-- Load external JavaScript -->
 		<script src="scripts.js"></script>
+
+		<script>
+			document.querySelector("#test").onclick = (e) => {
+				e.preventDefault();
+				alert("carter was here");
+			}
+		</script>
         
     </body>
 
 <!-- UBGPass123 -->
 
 </html>
+
 
 
 
